@@ -1,5 +1,32 @@
 # Changelog
 
+## [9.0.0](https://github.com/AstroNvim/astrocommunity/compare/v8.5.0...v9.0.0) (2024-05-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **typescript:** replace `typescript-tools` with `vtsls` ([#969](https://github.com/AstroNvim/astrocommunity/issues/969))
+
+### Features
+
+* **clojure:** modularize pack, add ts-comment, add ts-sexp, add docs ([a34848c](https://github.com/AstroNvim/astrocommunity/commit/a34848c1f7030288b5c37a8022e2cff79f0a574e))
+* **code-runner:** add `conjure` ([67d93c5](https://github.com/AstroNvim/astrocommunity/commit/67d93c5f5d9317f9370511d69f1d77fb88775c4a))
+* **editing-support:** add `nvim-parinfer` ([2196cee](https://github.com/AstroNvim/astrocommunity/commit/2196ceedca58ec44ef093affa2375e14c7ca2631))
+* **editing-support:** add `nvim-treesitter-sexp` ([8075351](https://github.com/AstroNvim/astrocommunity/commit/807535168e954973508f76aed187c6c094e2ab96))
+* **jj:** Add lazyjj ([#986](https://github.com/AstroNvim/astrocommunity/issues/986)) ([a7dfa7b](https://github.com/AstroNvim/astrocommunity/commit/a7dfa7b7544c0be53d3299a60324ab2d3c7a3631))
+* **terminal-integration:** add `vim-tmux-navigator` plugin ([#984](https://github.com/AstroNvim/astrocommunity/issues/984)) ([2dfc54b](https://github.com/AstroNvim/astrocommunity/commit/2dfc54bf4387c76e1174db877581d0a40cefeaf6))
+* **typescript:** replace `typescript-tools` with `vtsls` ([#969](https://github.com/AstroNvim/astrocommunity/issues/969)) ([300a8c6](https://github.com/AstroNvim/astrocommunity/commit/300a8c63eca98593036f358e406cca09d59d241e))
+* **vscode:** add more known working plugins to enable in VS Code ([544998e](https://github.com/AstroNvim/astrocommunity/commit/544998e706f6477ff0f2812771cbcd1d66b33c52))
+
+
+### Bug Fixes
+
+* **catppuccin:** update `native_lsp` integration ([8aeb3e8](https://github.com/AstroNvim/astrocommunity/commit/8aeb3e873a0f8d0a3855e80ba0a8ddbb786a08a6))
+* **clojure:** clean up clojure pack and fix bugs ([a34848c](https://github.com/AstroNvim/astrocommunity/commit/a34848c1f7030288b5c37a8022e2cff79f0a574e))
+* **project-nvim:** use new rooter enable notation ([9c3208f](https://github.com/AstroNvim/astrocommunity/commit/9c3208faecd9bc86fad06183432bf4b44c62c1f6))
+* **typescript:** fix bug in `typescript-tools.nvim` where indentation gets treated as 0 ([259ae0f](https://github.com/AstroNvim/astrocommunity/commit/259ae0fefa286fbc12dc1c58d072e34324250e77))
+* **typescript:** only search for `package.json` files in typescript language servers ([6b8503f](https://github.com/AstroNvim/astrocommunity/commit/6b8503ffaa01ec0e50c9e044011db9c659fe2932))
+
 ## [8.5.0](https://github.com/AstroNvim/astrocommunity/compare/v8.4.0...v8.5.0) (2024-05-22)
 
 
